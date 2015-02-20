@@ -1,0 +1,11 @@
+<p class="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @user.username %>
+</p>
+
+
+
+<%= link_to 'Edit', [@user,@post] %> |
+<%= link_to 'Back', user_posts_path %>
